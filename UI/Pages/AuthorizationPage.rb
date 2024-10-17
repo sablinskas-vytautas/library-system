@@ -52,9 +52,9 @@ class AuthorizationPage
   def show_login_instructions
     is_correct_credentials = false
     until is_correct_credentials
-      puts 'Enter your username'
+      print 'Enter your username: '
       username = gets.chomp
-      puts 'Enter your password'
+      print 'Enter your password: '
       password = gets.chomp
       clear
 
@@ -71,9 +71,9 @@ class AuthorizationPage
   def show_register_instructions
     is_correct_credentials = false
     until is_correct_credentials
-      puts 'Enter username'
+      print 'Enter username: '
       username = gets.chomp
-      puts 'Enter password'
+      print 'Enter password: '
       password = gets.chomp
       clear
 
